@@ -2,7 +2,7 @@ class CamadaEnlace:
     ignore_checksum = False
 
     def __init__(self, linhas_seriais):
-        """
+        """ 
         Inicia uma camada de enlace com um ou mais enlaces, cada um conectado
         a uma linha serial distinta. O argumento linhas_seriais é um dicionário
         no formato {ip_outra_ponta: linha_serial}. O ip_outra_ponta é o IP do
